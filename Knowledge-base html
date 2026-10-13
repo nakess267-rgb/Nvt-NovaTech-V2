@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base | NovaTech Solutions Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/novatech-logo.png" alt="NovaTech Solutions Hub Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+                    <li><a href="knowledge-base.html" class="active">Knowledge Base</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="submit-ticket.html" class="btn btn-primary">Submit a Ticket</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Knowledge Base & Resources</h1>
+            <p>Self-service troubleshooting, FAQs, and IT support policies.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="kb-section section-padding">
+        <div class="container">
+            
+            <!-- FAQs Section -->
+            <div class="faq-container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <!-- Category: Network & Connectivity -->
+                <div class="faq-category">
+                    <h3>Network & Connectivity</h3>
+                    
+                    <details class="faq-item">
+                        <summary>Why is my Wi-Fi not working?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Ensure Wi-Fi is enabled on your device. Restart your device. Check if other devices can connect to the same network. If on a laptop, look for a physical Wi-Fi switch.</p>
+                            <p><strong>Stop & Report:</strong> Stop troubleshooting and log a ticket if the network name (SSID) is missing, or if multiple users are experiencing the same issue.</p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item">
+                        <summary>Why can't I connect to the internet?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Check your ethernet cable connections if hardwired. Verify your router/modem is powered on. Restart your browser and clear the cache.</p>
+                            <p><strong>Stop & Report:</strong> Stop if you receive specific proxy or DNS error messages, and report the issue to IT support.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- Category: Devices & Hardware -->
+                <div class="faq-category">
+                    <h3>Devices & Hardware</h3>
+                    
+                    <details class="faq-item">
+                        <summary>What should I do if my computer is running slowly?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Close unused applications and browser tabs. Perform a system restart. Check your hard drive for available space.</p>
+                            <p><strong>Stop & Report:</strong> Log a ticket if the computer crashes, makes unusual hardware noises, or remains slow after a reboot.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What should I do if my printer is not responding?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Verify the printer is turned on and has paper/toner. Clear any visible paper jams. Cancel stuck documents in the print queue and restart the printer.</p>
+                            <p><strong>Stop & Report:</strong> Report the issue if the printer displays an internal hardware error code or if it disappears completely from your network devices list.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- Category: Accounts & Access -->
+                <div class="faq-category">
+                    <h3>Accounts & Access</h3>
+                    
+                    <details class="faq-item">
+                        <summary>What should I do if my password is not working?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Ensure Caps Lock is off. Carefully retype your password. Try logging into a different company portal to verify if the account is locked.</p>
+                            <p><strong>Stop & Report:</strong> If you receive a "Account Locked" message or have forgotten the password entirely, submit a ticket for a secure password reset.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Why can't I access a shared network folder?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Check your internet/VPN connection. Restart your file explorer. Verify the folder path is correct.</p>
+                            <p><strong>Stop & Report:</strong> Log a ticket if you get an "Access Denied" error, as your user permissions may need to be modified.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <!-- Category: Ticket Management -->
+                <div class="faq-category">
+                    <h3>Ticket Management</h3>
+                    
+                    <details class="faq-item">
+                        <summary>How do I report a recurring technical problem?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Download the IT Ticket Management Workbook. Clearly state that this is a recurring issue and reference any previous ticket numbers if available.</p>
+                            <p><strong>Stop & Report:</strong> Do not attempt advanced registry or system changes. Let technical support investigate the root cause.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What information should I include in an IT support ticket?</summary>
+                        <div class="faq-content">
+                            <p><strong>Steps:</strong> Include your name, date/time, affected device, a clear description of the issue, specific error messages, impact on your work, and what you have already tried to fix it.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <!-- Escalation Policy Section -->
+            <div class="escalation-section mt-4 bg-light card">
+                <div class="section-title">
+                    <h2>Escalation Policy</h2>
+                    <div class="divider"></div>
+                </div>
+                <p class="mb-2">Critical incidents should be prioritized and escalated promptly. Tickets should be escalated when the issue exceeds the current support level's capabilities, remains unresolved beyond the applicable target time, or poses a significant business or security risk.</p>
+                
+                <div class="escalation-levels">
+                    <div class="level-card">
+                        <h4>Level 1 — First-Line Support</h4>
+                        <p>Basic troubleshooting, password assistance, connectivity checks, and initial ticket logging.</p>
+                    </div>
+                    <div class="level-card">
+                        <h4>Level 2 — Technical Support</h4>
+                        <p>More complex device, network, software, and recurring technical issues.</p>
+                    </div>
+                    <div class="level-card">
+                        <h4>Level 3 — Specialist/Senior IT</h4>
+                        <p>Critical incidents, complex infrastructure problems, and issues requiring specialist investigation.</p>
+                    </div>
+                </div>
+
+                <div class="escalation-flow mt-3">
+                    <h3>Escalation Flow</h3>
+                    <div class="flow-diagram">
+                        <div class="flow-box">User Logs Ticket</div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-box">Level 1 Investigates</div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-box">Escalation (if unresolved)</div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-box">Level 2 / 3 Resolves</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Change Request Form -->
+            <div class="change-request-section text-center mt-4">
+                <h2>System Modification & Change Requests</h2>
+                <p class="mb-2">Complete a Change Request Form when requesting an approved modification to an existing system, configuration, or IT service. This ensures all changes are documented and assessed for risk.</p>
+                <a href="downloads/Change-Request-Form.docx" class="btn btn-secondary btn-large" download>Download Change Request Form</a>
+                <p class="small-text mt-1"><em>(Place the supplied .docx file in the "downloads" folder of your project)</em></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <img src="images/novatech-logo.png" alt="NovaTech Logo" class="footer-logo">
+                <p>Empowering your IT infrastructure with reliable support and innovative solutions.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@example.com</p>
+                <p>Phone: (555) 019-8273</p>
+                <p><em>*Note: Simulated contact details for academic project purposes.</em></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NovaTech Solutions Hub. Academic Project.</p>
+        </div>
+    </footer>
+</body>
+</html>
