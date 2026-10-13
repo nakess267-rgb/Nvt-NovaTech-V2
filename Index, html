@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTech Solutions Hub | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/novatech-logo.png" alt="NovaTech Solutions Hub Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="submit-ticket.html" class="btn btn-primary">Submit a Ticket</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Reliable IT Support & Service Management</h1>
+            <p>Empowering your workflow with organized troubleshooting, efficient service request management, and innovative monitoring solutions.</p>
+            <div class="hero-buttons">
+                <a href="submit-ticket.html" class="btn btn-primary">Log an IT Issue</a>
+                <a href="knowledge-base.html" class="btn btn-secondary">Browse Knowledge Base</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-card">
+                    <h2>Our Purpose</h2>
+                    <p>NovaTech provides comprehensive IT support services designed to help users accurately report technical problems, access guided troubleshooting resources, and manage IT service requests efficiently and effectively.</p>
+                </div>
+                <div class="about-card">
+                    <h2>Our Vision</h2>
+                    <p>To make IT support more accessible, organized, reliable, and innovative through effective service management and technology-driven solutions that minimize downtime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NVT Innovation Section -->
+    <section class="innovation section-padding bg-light">
+        <div class="container">
+            <div class="text-center section-title">
+                <h2>Innovation Spotlight: Node Volatility Tracker (NVT)</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="innovation-content">
+                <p><strong>Node Volatility Tracker (NVT)</strong> is our proposed innovation designed to monitor changes in network nodes proactively. As a conceptual feature, NVT aims to identify potential instability and help IT personnel rapidly investigate network disruptions before they impact critical business operations.</p>
+                <p>This forward-thinking concept represents NovaTech's commitment to advancing from reactive support to proactive network health management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use the Portal Section -->
+    <section class="how-to-use section-padding">
+        <div class="container">
+            <div class="text-center section-title">
+                <h2>How to Use the Portal</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Identify the Problem</h3>
+                    <p>Observe the IT issue and gather any relevant error messages or details.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Download Workbook</h3>
+                    <p>Visit the Submit a Ticket page and download the Excel ticket management workbook.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Log the Request</h3>
+                    <p>Complete the required ticket information following the workbook's instructions.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Consult Resources</h3>
+                    <p>Check our Knowledge Base for immediate troubleshooting assistance.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <h3>Escalate</h3>
+                    <p>Follow the escalation policy if the issue remains unresolved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding bg-light">
+        <div class="container">
+            <div class="text-center section-title">
+                <h2>Our Services</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>IT Support</h3>
+                    <p>First-line and technical support for hardware, software, and connectivity issues.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ticket Management</h3>
+                    <p>Systematic tracking and resolution of service requests using structured workflows.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Troubleshooting</h3>
+                    <p>Comprehensive knowledge base and self-service resources for quick issue resolution.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Proposed NVT</h3>
+                    <p>Innovative concept for tracking node volatility and investigating network disruptions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <img src="images/novatech-logo.png" alt="NovaTech Logo" class="footer-logo">
+                <p>Empowering your IT infrastructure with reliable support and innovative solutions.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@example.com</p>
+                <p>Phone: (555) 019-8273</p>
+                <p><em>*Note: Simulated contact details for academic project purposes.</em></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NovaTech Solutions Hub. Academic Project.</p>
+        </div>
+    </footer>
+</body>
+</html>
